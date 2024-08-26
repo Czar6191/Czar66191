@@ -1,10 +1,59 @@
-<!DOCTYPE .html>
-<html>
-<h1>Välkommen till hub</h1>
-<p>Mitt namn är czar</p>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-<img IMG_2965.jpeg>
-</html>
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Välkommen till min hub</title>
+    <style>
+        :root {
+            --bg-color-light: #f0f0f0;
+            --text-color-light: #333;
+            --highlight-color-light: #007bff;
+
+            --bg-color-dark: #1c1c1c;
+            --text-color-dark: #e0e0e0;
+            --highlight-color-dark: #1e90ff;
+        }
+
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: var(--bg-color-light);
+            color: var(--text-color-light);
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            transition: background-color 0.5s, color 0.5s;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        img {
+            width: 350px;
+            height: auto;
+            border-radius: 12px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.3s;
+        }
+        img:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        }
+        .highlight {
+            color: var(--highlight-color-light);
+            font-weight: bold;
+        }
+
+        /* Dark mode styling /
+        body.dark-mode {
+            background-color: var(--bg-color-dark);
+            color: var(--text-color-dark);
+        }
+        body.dark-mode .highlight {
+            color: var(--highlight-color-dark);
+        }
+
+        / Toggle button styling */
